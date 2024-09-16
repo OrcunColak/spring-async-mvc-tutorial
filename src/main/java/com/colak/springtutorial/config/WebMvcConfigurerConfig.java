@@ -6,9 +6,8 @@ import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 import org.springframework.web.servlet.config.annotation.AsyncSupportConfigurer;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
-/**
- * See <a href="https://howtodoinjava.com/spring-boot/spring-async-controller-responsebodyemitter/">...</a>
- */
+// See https://howtodoinjava.com/spring-boot/spring-async-controller-responsebodyemitter/
+// Override the default async behavior
 @Configuration
 public class WebMvcConfigurerConfig implements WebMvcConfigurer {
 
